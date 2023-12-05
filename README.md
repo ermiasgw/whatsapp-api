@@ -24,6 +24,18 @@ It is an API with chat functionality similar to WhatsApp's API server
 | :-------- | :------- | :------------------------- |
 | `api_key` | `string` | **Required**. Your API key |
 
+#### to send message
+ format is
+ {
+    "text_message": "string",
+    "files": [
+        {
+            "name": "stirng",
+            "content": "binary",
+        }
+    ]
+ }
+
 
 #### create chat room
 
